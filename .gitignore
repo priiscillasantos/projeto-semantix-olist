@@ -30,6 +30,15 @@ MANIFEST
 #   Usually these files are written by a python script from a template
 #   before PyInstaller builds the exe, so as to inject date/other infos into it.
 *.manifest
+
+# Dados brutos do projeto
+input/
+
+# Arquivos gerados pelo projeto
+output/
+
+# Arquivos temporários do Jupyter
+.ipynb_checkpoints/
 *.spec
 
 # Installer logs
